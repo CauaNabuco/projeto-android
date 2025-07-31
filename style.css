@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #D9D7C5;
+}
+header{
+    background-image: linear-gradient(to top,#015121, #008F3A, #02a348);
+    padding: 40px 25px 6px 25px;
+}
+#titulo-header{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+#titulo-header > h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-item > a{
+    color: rgb(191, 240, 191);
+    padding: 7px;
+    border-radius: 2px;
+}
+.menu-item > a:hover{
+    background-color:#02a348;
+    color: #015121;
+}
+nav:first-child{
+    margin-left: 0;
+}
+main{
+    background-color: white;
+    margin: 0px auto 10px auto;
+    max-width: 1100px;
+    min-width: 280;
+    padding: 20px;
+    align-items: center;
+    border-radius: 0px 0px 5px 5px;
+}
+main > picture > img{
+    width: 100%;
+}
+p {
+    text-indent: 30px ;
+}
+.Historia-do-mascote > h2{
+    margin-bottom: 10px;
+    color: darkgreen;
+}
+.Historia-do-mascote > p{
+    margin-bottom: 10px;
+}
+.titulo-destaque{
+    color: white;
+    background-image: linear-gradient(to right, #02a348, white);
+    
+}
+.imagem-primeiro-mascote{
+    text-align: center;
+}
+.irina{
+    width: 100%;
+}
+strong{
+    color: darkgreen;
+}
+.link{
+    background-color: #02a3487b;
+    color: #015121;
+}
+.link::after{
+    content: '🔗';
+}
+#video{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #015121;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height:90% ;
+}
+#extra{
+    background-color: #02a348;
+    padding: 20px 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+#cor-titulo-extra{
+    background-color: #015121;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+#conteiner-extra{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#listas{
+    display: flex;
+   margin: 10px 0px;
+}
+#listas > ul{
+    list-style: none;
+    
+}
+#listas > ul > li::before{
+    content: '✔️';
+}
+#lista-center{
+    margin-left: 100px;
+}
+
+
+footer{
+    background-color: #015121;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer > p > a{
+    color: darkgrey;
+}
+footer > p > a:hover{
+    color: lightgray;
+}
